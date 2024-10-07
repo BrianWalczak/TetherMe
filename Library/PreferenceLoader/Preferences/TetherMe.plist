@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = TetherMe;
+		cell = PSLinkCell;
+		detail = TetherMeListController;
+		icon = TetherMe.png;
+		isController = 1;
+		label = TetherMe;
+	};
+}

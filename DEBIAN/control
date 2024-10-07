@@ -1,0 +1,14 @@
+Package: net.tetherme.tetherme8
+Architecture: iphoneos-arm
+Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
+Depiction: http://repo.tetherme.net/licensed/net.tetherme.tetherme8.html
+Maintainer: Sam Bingner <support@tetherme.net>
+Section: Networking
+Pre-Depends: mobilesubstrate (>=0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<<99.0) | com.ex.libsubstitute (>= 0.1.1)
+Replaces: net.tetherme.tetherme
+Conflicts: net.tetherme.tetherme
+Tag: purpose::extension
+Name: TetherMe for iOS8+
+Version: 2.1.3
+Installed-Size: 22912
